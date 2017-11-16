@@ -9,6 +9,7 @@ angular.module('ecommerce').service('cartSrvc', function(){
   ];
 
   this.addItem = function(newItem){
+    console.log(newItem);
     cart.push({
       amount:1,
       product:newItem
@@ -29,6 +30,14 @@ angular.module('ecommerce').service('cartSrvc', function(){
     return cart.reduce((total, lineItem)=>{
       return total + lineItem.amount
     }, 0)
+  }
+
+  this.removeItem = function(item){
+    for (var i=cart.length-1; i>=0; i--){
+      if (cart[i].product.name === item.name){
+        cart.splice(i,1);
+      }
+    }
   }
 
 })
