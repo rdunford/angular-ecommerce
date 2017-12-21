@@ -4,9 +4,14 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="/app/css/main.css">
+    <link rel="stylesheet" href="/app/components/my-header/my-header.css">
+    <link rel="stylesheet" href="/app/components/product/product.css">
+    <link rel="stylesheet" href="/app/components/cart/cart.css">
   </head>
   <body>
-    <div> Replace Me with the my-header componenet once created.</div>
+
+    <my-header></my-header>
+
     <ui-view></ui-view>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js" charset="utf-8"></script>
@@ -19,11 +24,14 @@
     <script src="app/views/home/homeCtrl.js" charset="utf-8"></script>
     <script src="app/views/productList/productListCtrl.js" charset="utf-8"></script>
 
-    <!-- Views -->
+    <!-- Services -->
     <script src="app/services/cartSrvc.js" charset="utf-8"></script>
     <script src="app/services/productSrvc.js" charset="utf-8"></script>
 
     <!-- Components -->
+    <script src="app/components/my-header/my-header.js"></script>
+    <script src="app/components/product/product.js"></script>
+    <script src="app/components/cart/cart.js"></script>
     
   </body>
 </html>

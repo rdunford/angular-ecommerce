@@ -1,7 +1,8 @@
-/*product {
+product {
   display:flex;
   min-height:200px;
 }
+
 product .picture{
   background-color:#eee;
   display:inline-block;
@@ -21,4 +22,4 @@ product h1{
   margin: 0;
   font-size: 2em;
   font-weight: bolder;
-}*/
+}

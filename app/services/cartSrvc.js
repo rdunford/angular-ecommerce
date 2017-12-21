@@ -31,4 +31,8 @@ angular.module('ecommerce').service('cartSrvc', function(){
     }, 0)
   }
 
+  this.removeProduct = function(product){
+    let index = cart.
+  }
+
 })
