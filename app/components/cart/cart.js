@@ -5,7 +5,7 @@ angular.module('ecommerce').component('cart', {
 
         this.getTotal = cartSrvc.getTotal;
 
-        this.removeProduct = cartSrvc.removeProduct;
+        this.removeItem = cartSrvc.removeItem;
     },
     controllerAs:'ct'
 })

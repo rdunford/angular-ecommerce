@@ -2,7 +2,7 @@
 <div class="line-item" ng-repeat="item in ct.cart"> <!-- Make line-items repeat -->
     <product product="item.product"
             button-label="Remove Item"
-            button-action="ct.removeProduct(item.product)"></product>
+            button-action="ct.removeItem($index)"></product>
     <input type="number" ng-model="item.amount"/>
 </div>
 <div class="total">
