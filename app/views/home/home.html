@@ -2,4 +2,10 @@
 
 <h2>Daily Deals</h2>
 <!-- ng-repeat over products once we have the component -->
-{{products}}
+
+<div>
+<product ng-repeat="product in products"
+         product="product"
+         button-label="Add Item"
+         button-action="addItem(product)"> </product>
+</div>
