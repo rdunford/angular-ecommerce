@@ -27,3 +27,36 @@ price:16
 }]
 
 ```
+
+### My-Header structure
+
+```html
+<nav>
+    <a> </a>
+    <a> </a>
+    <a> </a> 
+</nav>
+```
+
+### Product Structure
+
+```html
+<div class="picture"></div>
+<div class="padded">
+    <h1>Name</h1>
+    Description
+    <button>
+</div>
+
+```
+
+### Cart Structure 
+
+```html
+<div class="line-item">
+    <product></product>
+    <input/>
+</div>
+<div class="total">
+</div>
+```
